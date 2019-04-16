@@ -17,8 +17,7 @@ class BoaConstrictor(Snake):
     def squeeze(self, other):
         """Give a hug."""
         from bear import hug
-        hug(self, other,kill=False)
-        
+        hug(self, other, kill=True)
 
     
 class BoatConstrictor(BoaConstrictor):
